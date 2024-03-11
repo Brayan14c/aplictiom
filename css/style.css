@@ -1,0 +1,39 @@
+/*SETERAR ESTILOS POR DEFECTOS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --color-primario:#6644b8;
+    --color-segundario:#bb00bd;
+    --color-fondoA : #221039;
+    --color-fondob :#37274b;
+}
+#cont-inicio{
+    width: 100%;
+    max-width: 430px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: url(../img/medios/home-img.png) var(--color-fondoA);
+    text-align: center;
+    padding-top: 390px;
+}
+#cont-inicio p{
+    color: #fff;
+    font-size: 18px;
+    padding: 0 60px;
+}
+#btn-principal{
+    padding: 14px 40px;
+    background: var(--color-fondob);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    display: block;
+    max-width: 90%;
+    margin: 20px auto 0;
+    text-decoration: none;
+}
